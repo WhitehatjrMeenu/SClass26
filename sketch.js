@@ -6,12 +6,31 @@ var engine, world;
 var box1, pig1;
 var backgroundImg,platform;
 
+/*
+
+
+pwd - present working directory 
+ls - list
+cd - change directory 
+cd .. -- go to parent folder
+clear 
+mkdir - make directory
+
+
+ git clone <link>
+ git status 
+
+
+
+
+*/
+
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
 
 function setup(){
-    var canvas = createCanvas(1200,400);
+    var canvas = createCanvas(1190,400);
     engine = Engine.create();
     world = engine.world;
 
